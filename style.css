@@ -1,0 +1,133 @@
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+}
+.container{
+    padding: 2vw 5vw;
+    padding-bottom: 0px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.list>li{
+    font-family:  Orbitron;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+li:first-child{
+    font-weight: 900;
+}
+.list>li:first-child::after{
+    content: "";
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    border-top: 2px solid black;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+}
+.search-icon>svg{
+    width: 22px;
+    margin-right: 10px;
+}
+.nav-button{
+    border-radius: 10px;
+    padding: 0px 30px;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+}
+
+.hero-container{
+    position: relative;
+    padding-top: 70px ;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero-container>div>img{
+    
+    width: 460px;
+    height: 550px;
+}
+.square,.globe,.star,.star1{
+    position: absolute;
+}
+.square{
+    z-index: -2;
+    left: 120px;
+    bottom: 40px;
+}
+.globe{
+    top: 10px;
+    right: 600px;
+}
+.star{
+    padding-top: 30px;
+    right: 150px;
+}
+.star1{
+   
+    bottom: 250px;
+    left: 600px;
+}
+.star1>img{
+    width: 40px;
+}
+
+.hero-container-right{
+    text-align: center;
+    padding: 9vw 50px;
+    padding-bottom: 3vw;
+    
+}
+.hero-heading{
+    font-family:Orbitron ;
+    font-size: 3.2vw;
+    font-weight: 500;
+}
+.hero-description{
+    font-size: 12px;
+    padding: 2vw 8.5vw;
+}
+.hero-container-right>*:nth-child(3){
+    margin: 5vw 0px;
+    
+}
+.hero-container-right>*:nth-child(3)>*:first-child{
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 2px 25px;
+    border-radius: 8px;
+    font-family:Orbitron ;
+}
+.hero-container-right>*:nth-child(3)>*:last-child{
+    border: 2px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 8px;
+    font-family:Orbitron ;
+}
+.contact-heading{
+    color:#515151;
+    padding: 20px;
+}
+.icons>*{
+    padding: 10px;
+}
